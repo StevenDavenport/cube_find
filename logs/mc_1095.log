@@ -1,0 +1,61 @@
+[17:03:24] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>CubeFind-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>23000</StartTime><AllowPassageOfTime>false</AllowPassageOfTime></Time></ServerInitialConditions><ServerHandlers><FlatWorldGenerator forceReset="true" generatorString="1;7,2x3,2;1"/><DrawingDecorator><DrawCuboid x1="-200" y1="3" z1="25" x2="200" y2="-10" z2="225" type="lava"/><DrawCuboid x1="-200" y1="3" z1="-25" x2="200" y2="-10" z2="-225" type="lava"/><DrawCuboid x1="-200" y1="3" z1="-200" x2="-25" y2="-10" z2="200" type="lava"/><DrawCuboid x1="200" y1="3" z1="-200" x2="25" y2="-10" z2="200" type="lava"/><DrawCuboid x1="-2" y1="94" z1="-2" x2="2" y2="95" z2="2" type="glass"/></DrawingDecorator></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="water_bucket" metadata="0" quantity="1"/><InventoryObject slot="1" type="diamond_pickaxe" metadata="0" quantity="1"/></Inventory><Placement x="0" y="100" z="0" yaw="0" pitch="90"/></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullStats/><HumanLevelCommands/><CameraCommands/><EquipCommands/><RewardForTouchingBlockType><Block reward="50" type="gold_block" behaviour="onceOnly"/></RewardForTouchingBlockType><RewardForMissionEnd><Reward description="out_of_time" reward="50"/></RewardForMissionEnd><AgentQuitFromPossessingItem><Item type="gold_block" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>cad22055-05f5-44d5-94e8-fc6386409947</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[17:03:24] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[17:03:25] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[17:03:25] [Client thread/INFO]: [STDOUT]: Mission received: CubeFind-v0
+[17:03:25] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[17:03:25] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[17:03:25] [Client thread/INFO]: [STDOUT]: Starting command server.
+[17:03:25] [Thread-11/INFO]: [STDOUT]: INFO: ->com(0) Listening for messages on port 10802
+[17:03:25] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[17:03:25] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[17:03:25] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[17:03:25] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[17:03:25] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[17:03:25] [Server thread/INFO]: Generating keypair
+[17:03:25] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[17:03:25] [Server thread/INFO]: Applying holder lookups
+[17:03:25] [Server thread/INFO]: Holder lookups applied
+[17:03:25] [Server thread/INFO]: Loading dimension 0 (TEMP_0_421ee53a-e017-47c0-859c-87b4d5dfa1fd) (net.minecraft.server.integrated.IntegratedServer@63ae60c9)
+[17:03:26] [Server thread/INFO]: Loading dimension 1 (TEMP_0_421ee53a-e017-47c0-859c-87b4d5dfa1fd) (net.minecraft.server.integrated.IntegratedServer@63ae60c9)
+[17:03:26] [Server thread/INFO]: Loading dimension -1 (TEMP_0_421ee53a-e017-47c0-859c-87b4d5dfa1fd) (net.minecraft.server.integrated.IntegratedServer@63ae60c9)
+[17:03:26] [Server thread/INFO]: Preparing start region for level 0
+[17:03:26] [Server thread/INFO]: Changing view distance to 4, from 10
+[17:03:27] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[17:03:27] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[17:03:27] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[17:03:27] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[17:03:27] [Netty Local Client IO #0/INFO]: [STDOUT]: Transformed Name: net.minecraft.client.entity.EntityOtherPlayerMP
+[17:03:27] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Found EntityOtherPlayerMP, attempting to transform it
+[17:03:27] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[17:03:27] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[17:03:27] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[17:03:27] [Server thread/INFO]: [STDOUT]: Mission received: CubeFind-v0
+[17:03:27] [Server thread/INFO]: Received mission: §9CubeFind-v0
+[17:03:27] [Server thread/INFO]: Source: §alocalhost
+[17:03:27] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[17:03:27] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[17:03:27] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[17:03:27] [Netty Server IO #1/INFO]: Client protocol version 2
+[17:03:27] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[17:03:27] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[17:03:34] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[17:03:34] [Server thread/INFO]: [Server thread] Server side modded connection established
+[17:03:34] [Server thread/INFO]: MineRLAgent0[local:E:300203bb] logged in with entity id 0 at (427.5, 4.0, 1046.5)
+[17:03:34] [Server thread/INFO]: MineRLAgent0 joined the game
+[17:03:34] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[17:03:34] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[17:03:34] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[17:03:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[17:03:35] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[17:03:36] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[17:03:36] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[17:03:36] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForTouchingBlockTypeImplementation@acda180 with agent name MineRLAgent0
+[17:03:36] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForMissionEndImplementation@1da98c1e with agent name MineRLAgent0
+[17:03:36] [Client thread/INFO]: [STDOUT]: [LOGTOPY] On Mac OSX Catalina make sure to install this OpenJDK 1.8.0_152-release-1056-b12, this prevents the NSDragRegions crash
+[17:03:36] [Client thread/INFO]: [STDOUT]: Resized the window
+[17:03:36] [Client thread/INFO]: [STDOUT]: Unpausing
+[17:03:36] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[17:03:37] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[17:03:38] [Server thread/INFO]: [STDOUT]: Warning: managed 6/20 ticks this second.
+[17:03:40] [Client thread/INFO]: [STDOUT]: 2.0 damage from fall by entity null
+[17:03:40] [Server thread/INFO]: [STDOUT]: Warning: managed 7/20 ticks this second.

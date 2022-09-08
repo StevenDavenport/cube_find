@@ -1,0 +1,99 @@
+[16:02:29] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>CubeFind-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>23000</StartTime><AllowPassageOfTime>false</AllowPassageOfTime></Time></ServerInitialConditions><ServerHandlers><FlatWorldGenerator forceReset="true" generatorString="1;7,2x3,2;1"/><DrawingDecorator><DrawCuboid x1="-200" y1="3" z1="25" x2="200" y2="-10" z2="225" type="lava"/><DrawCuboid x1="-200" y1="3" z1="-25" x2="200" y2="-10" z2="-225" type="lava"/><DrawCuboid x1="-200" y1="3" z1="-200" x2="-25" y2="-10" z2="200" type="lava"/><DrawCuboid x1="200" y1="3" z1="-200" x2="25" y2="-10" z2="200" type="lava"/><DrawCuboid x1="-10" y1="0" z1="-10" x2="10" y2="10" z2="10" type="glass"/></DrawingDecorator></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="water_bucket" metadata="0" quantity="1"/><InventoryObject slot="1" type="diamond_pickaxe" metadata="0" quantity="1"/></Inventory><Placement x="0" y="15" z="0" yaw="0" pitch="0"/></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullStats/><HumanLevelCommands/><CameraCommands/><EquipCommands/><RewardForTouchingBlockType><Block reward="50" type="gold_block" behaviour="onceOnly"/></RewardForTouchingBlockType><RewardForMissionEnd><Reward description="out_of_time" reward="50"/></RewardForMissionEnd><AgentQuitFromPossessingItem><Item type="gold_block" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>20ccb552-b16f-406b-8a05-b114ecde84a7</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[16:02:29] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[16:02:29] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[16:02:30] [Client thread/INFO]: [STDOUT]: Mission received: CubeFind-v0
+[16:02:30] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[16:02:30] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[16:02:30] [Client thread/INFO]: [STDOUT]: Starting command server.
+[16:02:30] [Thread-11/INFO]: [STDOUT]: INFO: ->com(0) Listening for messages on port 10776
+[16:02:30] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[16:02:30] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[16:02:30] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[16:02:30] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[16:02:30] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[16:02:30] [Server thread/INFO]: Generating keypair
+[16:02:31] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[16:02:31] [Server thread/INFO]: Applying holder lookups
+[16:02:31] [Server thread/INFO]: Holder lookups applied
+[16:02:31] [Server thread/INFO]: Loading dimension 0 (TEMP_0_0f59f678-6035-44b5-9b12-72b8dbaa0d86) (net.minecraft.server.integrated.IntegratedServer@18d47e2c)
+[16:02:31] [Server thread/INFO]: Loading dimension 1 (TEMP_0_0f59f678-6035-44b5-9b12-72b8dbaa0d86) (net.minecraft.server.integrated.IntegratedServer@18d47e2c)
+[16:02:31] [Server thread/INFO]: Loading dimension -1 (TEMP_0_0f59f678-6035-44b5-9b12-72b8dbaa0d86) (net.minecraft.server.integrated.IntegratedServer@18d47e2c)
+[16:02:31] [Server thread/INFO]: Preparing start region for level 0
+[16:02:31] [Server thread/INFO]: Changing view distance to 4, from 10
+[16:02:32] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[16:02:32] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[16:02:32] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[16:02:32] [Netty Local Client IO #0/INFO]: [STDOUT]: Transformed Name: net.minecraft.client.entity.EntityOtherPlayerMP
+[16:02:32] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Found EntityOtherPlayerMP, attempting to transform it
+[16:02:32] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[16:02:32] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[16:02:32] [Netty Server IO #1/INFO]: Client protocol version 2
+[16:02:32] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[16:02:32] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[16:02:32] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[16:02:32] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[16:02:32] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[16:02:32] [Server thread/INFO]: [STDOUT]: Mission received: CubeFind-v0
+[16:02:32] [Server thread/INFO]: Received mission: §9CubeFind-v0
+[16:02:32] [Server thread/INFO]: Source: §alocalhost
+[16:02:32] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[16:02:32] [Server thread/INFO]: [Server thread] Server side modded connection established
+[16:02:32] [Server thread/INFO]: MineRLAgent0[local:E:ba75b3a2] logged in with entity id 0 at (541.5, 4.0, -1077.5)
+[16:02:32] [Server thread/INFO]: MineRLAgent0 joined the game
+[16:02:32] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[16:02:33] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:33] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:33] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:33] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:34] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:34] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:34] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:36] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:36] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:36] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:38] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:38] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:38] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:39] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:39] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:39] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:39] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:40] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:40] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:40] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:41] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:41] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:41] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:42] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:43] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:43] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[16:02:43] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[16:02:43] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[16:02:43] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[16:02:44] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:44] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:44] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:02:44] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[16:02:45] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[16:02:45] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[16:02:45] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForTouchingBlockTypeImplementation@2cefc259 with agent name MineRLAgent0
+[16:02:45] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForMissionEndImplementation@224eaa97 with agent name MineRLAgent0
+[16:02:45] [Client thread/INFO]: [STDOUT]: [LOGTOPY] On Mac OSX Catalina make sure to install this OpenJDK 1.8.0_152-release-1056-b12, this prevents the NSDragRegions crash
+[16:02:45] [Client thread/INFO]: [STDOUT]: Resized the window
+[16:02:45] [Client thread/INFO]: [STDOUT]: Unpausing
+[16:02:46] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[16:02:46] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[16:02:47] [Server thread/INFO]: [STDOUT]: Warning: managed 4/20 ticks this second.
+[16:02:50] [Client thread/INFO]: [STDOUT]: 3.0 damage from fall by entity null
+[16:04:16] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 1634ms behind, skipping 32 tick(s)

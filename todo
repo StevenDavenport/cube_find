@@ -1,0 +1,9 @@
+Write create_rewardables with CLIP
+    - currently trying to ovverride step but its not working
+    if this douesnt work, do below 
+
+
+def step_new() function needs to work:
+    - clues in MultiAgent class
+    - and SimpleEmbodimentEnvSpec
+    - Maybe enherit from other

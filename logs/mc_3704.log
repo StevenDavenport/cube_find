@@ -1,0 +1,263 @@
+[16:18:48] [EnvServerSocketHandler/INFO]: [STDOUT]: Received from localhost:<MissionInit xmlns="http://ProjectMalmo.microsoft.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" SchemaVersion="" PlatformVersion="0.37.0"><Mission><About><Summary>CubeFind-v0</Summary></About><ModSettings><MsPerTick>50</MsPerTick></ModSettings><ServerSection><ServerInitialConditions><Time><StartTime>23000</StartTime><AllowPassageOfTime>false</AllowPassageOfTime></Time></ServerInitialConditions><ServerHandlers><FlatWorldGenerator forceReset="true" generatorString="1;7,2x3,2;1"/><DrawingDecorator><DrawCuboid x1="-200" y1="3" z1="25" x2="200" y2="-10" z2="225" type="lava"/><DrawCuboid x1="-200" y1="3" z1="-25" x2="200" y2="-10" z2="-225" type="lava"/><DrawCuboid x1="-200" y1="3" z1="-200" x2="-25" y2="-10" z2="200" type="lava"/><DrawCuboid x1="200" y1="94" z1="-200" x2="25" y2="95" z2="200" type="lava"/><DrawCuboid x1="-2" y1="0" z1="-2" x2="2" y2="10" z2="2" type="glass"/></DrawingDecorator></ServerHandlers></ServerSection><AgentSection mode="Survival"><Name>MineRLAgent0</Name><AgentStart><Inventory><InventoryObject slot="0" type="water_bucket" metadata="0" quantity="1"/><InventoryObject slot="1" type="diamond_pickaxe" metadata="0" quantity="1"/></Inventory><Placement x="0" y="100" z="0" yaw="0" pitch="90"/></AgentStart><AgentHandlers><FileBasedPerformanceProducer/><ObservationFromDamage/><PauseCommand/><VideoProducer want_depth="false"><Width>64</Width><Height>64</Height></VideoProducer><ObservationFromFullStats/><HumanLevelCommands/><CameraCommands/><EquipCommands/><RewardForTouchingBlockType><Block reward="50" type="gold_block" behaviour="onceOnly"/></RewardForTouchingBlockType><RewardForMissionEnd><Reward description="out_of_time" reward="50"/></RewardForMissionEnd><AgentQuitFromPossessingItem><Item type="gold_block" amount="1"/></AgentQuitFromPossessingItem></AgentHandlers></AgentSection></Mission><ExperimentUID>7d0e71ea-63a8-4834-97a0-704287f2b60d</ExperimentUID><ClientRole>0</ClientRole><ClientAgentConnection><ClientIPAddress>127.0.0.1</ClientIPAddress><ClientMissionControlPort>0</ClientMissionControlPort><ClientCommandsPort>0</ClientCommandsPort><AgentIPAddress>127.0.0.1</AgentIPAddress><AgentMissionControlPort>0</AgentMissionControlPort><AgentVideoPort>0</AgentVideoPort><AgentDepthPort>0</AgentDepthPort><AgentLuminancePort>0</AgentLuminancePort><AgentObservationsPort>0</AgentObservationsPort><AgentRewardsPort>0</AgentRewardsPort><AgentColourMapPort>0</AgentColourMapPort></ClientAgentConnection></MissionInit>
+[16:18:49] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[16:18:49] [EnvServerSocketHandler/INFO]: [STDOUT]: REPLYING WITH: MALMOOK
+[16:18:49] [Client thread/INFO]: [STDOUT]: Mission received: CubeFind-v0
+[16:18:49] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_HANDLERS
+[16:18:49] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_HANDLERS
+[16:18:49] [Client thread/INFO]: [STDOUT]: Starting command server.
+[16:18:49] [Thread-11/INFO]: [STDOUT]: INFO: ->com(0) Listening for messages on port 10339
+[16:18:49] [Client thread/INFO]: [STDOUT]: CLIENT request state: EVALUATING_WORLD_REQUIREMENTS
+[16:18:49] [Client thread/INFO]: [STDOUT]: CLIENT enter state: EVALUATING_WORLD_REQUIREMENTS
+[16:18:49] [Client thread/INFO]: [STDOUT]: CLIENT request state: CREATING_NEW_WORLD
+[16:18:49] [Client thread/INFO]: [STDOUT]: CLIENT enter state: CREATING_NEW_WORLD
+[16:18:50] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[16:18:50] [Server thread/INFO]: Generating keypair
+[16:18:50] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[16:18:50] [Server thread/INFO]: Applying holder lookups
+[16:18:50] [Server thread/INFO]: Holder lookups applied
+[16:18:50] [Server thread/INFO]: Loading dimension 0 (TEMP_0_2148c628-ad01-4d5c-b878-f1b41c28c26c) (net.minecraft.server.integrated.IntegratedServer@eeba96)
+[16:18:51] [Server thread/INFO]: Loading dimension 1 (TEMP_0_2148c628-ad01-4d5c-b878-f1b41c28c26c) (net.minecraft.server.integrated.IntegratedServer@eeba96)
+[16:18:51] [Server thread/INFO]: Loading dimension -1 (TEMP_0_2148c628-ad01-4d5c-b878-f1b41c28c26c) (net.minecraft.server.integrated.IntegratedServer@eeba96)
+[16:18:51] [Server thread/INFO]: Preparing start region for level 0
+[16:18:51] [Server thread/INFO]: Changing view distance to 4, from 10
+[16:18:52] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_MOD_READY
+[16:18:52] [Server thread/INFO]: [STDOUT]: CLIENT request state: WAITING_FOR_SERVER_READY
+[16:18:52] [Netty Local Client IO #0/INFO]: [STDOUT]: Transformed Name: net.minecraft.client.entity.EntityOtherPlayerMP
+[16:18:52] [Netty Local Client IO #0/INFO]: [STDOUT]: MALMO: Found EntityOtherPlayerMP, attempting to transform it
+[16:18:52] [Client thread/INFO]: [STDOUT]: CLIENT enter state: WAITING_FOR_SERVER_READY
+[16:18:52] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_MOD_READY
+[16:18:52] [Netty Local Client IO #0/INFO]: Server protocol version 2
+[16:18:52] [Netty Server IO #1/INFO]: Client protocol version 2
+[16:18:52] [Netty Server IO #1/INFO]: Client attempting to join with 5 mods : minecraft@1.11.2,FML@8.0.99.99,malmomod@0.37.0,forge@13.20.1.2588,mcp@9.19
+[16:18:52] [Netty Local Client IO #0/INFO]: [Netty Local Client IO #0] Client side modded connection established
+[16:18:52] [Server thread/INFO]: [STDOUT]: SERVER request state: DORMANT
+[16:18:52] [Server thread/INFO]: [STDOUT]: SERVER enter state: DORMANT
+[16:18:52] [Server thread/INFO]: [STDOUT]: INCOMING MISSION: Received MissionInit directly through ServerStateMachine constructor.
+[16:18:52] [Server thread/INFO]: [STDOUT]: Mission received: CubeFind-v0
+[16:18:52] [Server thread/INFO]: Received mission: §9CubeFind-v0
+[16:18:52] [Server thread/INFO]: Source: §alocalhost
+[16:18:52] [Server thread/INFO]: [STDOUT]: SERVER request state: BUILDING_WORLD
+[16:18:52] [Server thread/INFO]: [Server thread] Server side modded connection established
+[16:18:52] [Server thread/INFO]: MineRLAgent0[local:E:98758a57] logged in with entity id 0 at (-148.5, 4.0, -1462.5)
+[16:18:52] [Server thread/INFO]: MineRLAgent0 joined the game
+[16:18:52] [Server thread/INFO]: [STDOUT]: SERVER enter state: BUILDING_WORLD
+[16:18:53] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:53] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:53] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:54] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:54] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:54] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:55] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:55] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:55] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:56] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:56] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:56] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:57] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:57] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:57] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:58] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:58] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:58] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:58] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:59] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:59] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:18:59] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:00] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:00] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:00] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:00] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:01] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:01] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:01] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:02] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:02] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:02] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:02] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:03] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:03] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:03] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:04] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:04] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:04] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:04] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:05] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:05] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:05] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:06] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:06] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:06] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:06] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:07] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:07] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:07] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:07] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:08] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:08] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:08] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:09] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:09] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:09] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:09] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:10] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:10] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:10] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:11] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:11] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:11] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:11] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:12] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:12] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:12] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:12] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:13] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:13] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:13] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:14] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:14] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:14] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:14] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:15] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:15] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:15] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:15] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:16] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:16] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:16] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:17] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:17] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:17] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:17] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:18] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:18] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:18] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:19] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:19] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:19] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:19] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:20] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:20] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:20] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:20] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:21] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:21] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:21] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:22] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:22] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:22] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:22] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:23] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:23] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:23] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:23] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:24] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:24] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:24] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:25] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:25] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:25] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:25] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:26] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:26] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:26] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:26] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:27] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:27] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:27] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:28] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:28] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:28] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:28] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:29] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:29] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:29] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:30] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:30] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:30] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:30] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:31] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:31] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:31] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:31] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:32] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:32] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:32] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:33] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:33] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:33] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:33] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:34] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:35] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:36] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:36] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:36] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:37] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:38] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:38] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:38] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:38] [Server thread/INFO]: [STDOUT]: SERVER request state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[16:19:38] [Server thread/INFO]: [STDOUT]: SERVER enter state: WAITING_FOR_AGENTS_TO_ASSEMBLE
+[16:19:38] [Server thread/INFO]: [STDOUT]: Experiment requires: 
+[16:19:38] [Server thread/INFO]: [STDOUT]: >>>> MineRLAgent0
+[16:19:39] [Client thread/INFO]: [STDOUT]: ***Telling server we are ready - MineRLAgent0
+[16:19:39] [Server thread/INFO]: [STDOUT]: Initializing player with username MineRLAgent0 and agentname MineRLAgent0
+[16:19:40] [Client thread/INFO]: [STDOUT]: CLIENT request state: RUNNING
+[16:19:40] [Client thread/INFO]: [STDOUT]: CLIENT enter state: RUNNING
+[16:19:40] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForTouchingBlockTypeImplementation@f3ac4b8 with agent name MineRLAgent0
+[16:19:40] [Client thread/INFO]: [STDOUT]: Preparing reward com.microsoft.Malmo.MissionHandlers.RewardForMissionEndImplementation@1fb86ca0 with agent name MineRLAgent0
+[16:19:40] [Client thread/INFO]: [STDOUT]: [LOGTOPY] On Mac OSX Catalina make sure to install this OpenJDK 1.8.0_152-release-1056-b12, this prevents the NSDragRegions crash
+[16:19:40] [Client thread/INFO]: [STDOUT]: Resized the window
+[16:19:40] [Client thread/INFO]: [STDOUT]: Unpausing
+[16:19:40] [Server thread/INFO]: [STDOUT]: SERVER request state: RUNNING
+[16:19:40] [Server thread/INFO]: [STDOUT]: SERVER enter state: RUNNING
+[16:19:41] [Server thread/INFO]: [STDOUT]: Warning: managed 4/20 ticks this second.
+[16:19:44] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[16:19:47] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:19:49] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:19:53] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:19:54] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:19:58] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:19:59] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:20:02] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[16:20:07] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:20:08] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:20:13] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:20:15] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[16:20:21] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[16:20:25] [Server thread/INFO]: [STDOUT]: Warning: managed 7/20 ticks this second.
+[16:20:28] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:20:29] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:20:32] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:20:37] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:20:38] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:20:42] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:20:43] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:20:48] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:20:49] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:20:53] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:20:56] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[16:20:58] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:21:02] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:21:05] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[16:21:09] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[16:21:13] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[16:21:17] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[16:21:21] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:21:23] [Server thread/INFO]: [STDOUT]: Warning: managed 1/20 ticks this second.
+[16:21:32] [Server thread/INFO]: [STDOUT]: Warning: managed 11/20 ticks this second.
+[16:21:33] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[16:21:34] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[16:21:35] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[16:21:36] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[16:21:37] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.
+[16:21:39] [Server thread/INFO]: [STDOUT]: Warning: managed 3/20 ticks this second.
+[16:21:40] [Server thread/INFO]: [STDOUT]: Warning: managed 3/20 ticks this second.
+[16:21:41] [Server thread/INFO]: [STDOUT]: Warning: managed 2/20 ticks this second.

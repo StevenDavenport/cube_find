@@ -1,0 +1,2 @@
+2022-09-06 16:00:00 Zythax process_watcher[28886] INFO Process watcher started between parent 28835 and child 28853 
+2022-09-06 16:00:51 Zythax process_watcher[28886] INFO Child is not running anymore, launcher can terminate.

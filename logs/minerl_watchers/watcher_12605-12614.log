@@ -1,0 +1,2 @@
+2022-09-06 18:01:49 Zythax process_watcher[12647] INFO Process watcher started between parent 12605 and child 12614 
+2022-09-06 18:02:24 Zythax process_watcher[12647] INFO Parent is not running, hence we need terminate the child.

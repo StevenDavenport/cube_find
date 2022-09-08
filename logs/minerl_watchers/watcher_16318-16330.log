@@ -1,0 +1,8 @@
+2022-09-06 18:58:34 Zythax process_watcher[16363] INFO Process watcher started between parent 16318 and child 16330 
+2022-09-06 18:59:23 Zythax process_watcher[16363] INFO Parent is not running, hence we need terminate the child.
+2022-09-06 18:59:23 Zythax process_watcher[16363] INFO About to reap process tree of 16330:launchClient.sh:/usr/bin/bash i sleeping, owner 2055, printing process tree status in termination order:
+2022-09-06 18:59:23 Zythax process_watcher[16363] INFO 	-16335:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 16330
+2022-09-06 18:59:23 Zythax process_watcher[16363] INFO 	-16330:launchClient.sh:/usr/bin/bash i sleeping, owner 2055
+2022-09-06 18:59:23 Zythax process_watcher[16363] INFO Trying to SIGTERM 16335:java:/usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java i sleeping, owner 16330
+2022-09-06 18:59:24 Zythax process_watcher[16363] INFO Process psutil.Process(pid=16335, name='java', status='terminated', started='18:58:33') terminated with exit code None
+2022-09-06 18:59:24 Zythax process_watcher[16363] INFO Process psutil.Process(pid=16330, name='launchClient.sh', status='terminated', started='18:58:33') does not exist or is zombie.
